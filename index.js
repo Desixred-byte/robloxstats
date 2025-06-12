@@ -9,7 +9,7 @@ app.use(cors());
 
 app.get("/api/roblox-stats", async (req, res) => {
   try {
-    const ROBLOX_API = "https://games.roblox.com/v1/games?universeIds=4838322068";
+    const ROBLOX_API = "https://games.roblox.com/v1/games?universeIds=6022383883";
     const response = await fetch(ROBLOX_API);
     const data = await response.json();
 
