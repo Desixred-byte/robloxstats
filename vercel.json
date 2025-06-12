@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/roblox-stats.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/api/roblox-stats", "dest": "api/roblox-stats.js" }]
+}
